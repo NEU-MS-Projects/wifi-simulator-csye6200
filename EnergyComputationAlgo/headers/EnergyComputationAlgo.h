@@ -5,6 +5,7 @@
 #include <SparseCore>
 //#include <Eigen/Dense>
 #include <SparseLU>
+//a new comment
 
 using namespace std;
 using namespace Eigen;
@@ -12,7 +13,7 @@ using namespace Eigen;
 class EnergyComputationAlgo
 {
 public:
-	int dimx, dimy;
+	int dimx, dimy, dimz;
 	EnergyComputationAlgo(int dimx, int dimy);
 	vector<vector<double> > computeSignalStrengths(vector<vector<double> > imageMatrix, int routerXpos, int routerYpos);
 
